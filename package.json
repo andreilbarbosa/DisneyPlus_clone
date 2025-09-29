@@ -1,0 +1,17 @@
+{
+  "name": "projeto_4",
+  "version": "1.0.0",
+  "description": "Cópia da Home do site da DisneyPlus",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andreilbarbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.93.2"
+  }
+}
