@@ -10,8 +10,8 @@
   "author": "andreilbarbosa",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.1",
-    "gulp-sass": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "sass": "^1.93.2"
   }
 }
