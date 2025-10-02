@@ -34,9 +34,10 @@
             background: none;
             text-transform: uppercase;
             margin: 0 1vw;
+            cursor: pointer;
             
             &--is-active{
-                border-bottom: 5px solid variaveis.$corTextoSecundario;
+                border-bottom: 2px solid variaveis.$corTextoSecundario;
             }
         }
     }
