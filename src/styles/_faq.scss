@@ -10,6 +10,7 @@
         &__item{
             margin-bottom: 16px;
             background-color: #13151d;
+            list-style-type: none;
 
             &__question{
                 color: #fff;
@@ -34,6 +35,8 @@
             &__answer{
                 height: 0;
                 overflow: hidden;
+                padding: 0 24px;
+                transition: height, .5s ease;
             }
 
             &--is-open{
@@ -43,7 +46,8 @@
                 
                 .faq__questions__item__answer{
                     height: auto;
-                    padding: 24px;
+                    padding-bottom: 24px;
+                    transition: height, .5s ease;
                 }
             }
         }
